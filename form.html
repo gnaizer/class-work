@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <script src="form.js"></script>
+</head>
+
+<body>
+
+    <div class="form-style-6">
+        <h1>Contact Us</h1>
+        <form id="ajax_form" action="https://formspree.io/gntnaizer@gmail.com" method="POST">
+            <input id="firstname" type="text" name="_next" placeholder="Your Name" />
+            <input id="email" type="email" name="_next2" placeholder="Email Address" />
+            <textarea id="message" name="message" placeholder="Type your Message"></textarea>
+            <input id="submit" type="submit" value="Send" />
+        </form>
+    </div>
+
+</body>
+
+<!-- action="/cgi-bin/formmail.cgi" onsubmit="return sendform();" -->
+
+</html>
